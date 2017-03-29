@@ -107,11 +107,11 @@ Son olarak, özellikler, bir kural bildiriminin seçilen öğelerine kendi stili
 
 ### Yorumlar
 
-* Prefer line comments (`//` in Sass-land) to block comments.
-* Prefer comments on their own line. Avoid end-of-line comments.
-* Write detailed comments for code that isn't self-documenting:
-  - Uses of z-index
-  - Compatibility or browser-specific hacks
+*  Block yorumlar için satır yorumlarını (`//`  Sass dünyasında) tercih edin.
+* Kendi hattında yorumlar tercih edin. Satır sonu açıklamalarından kaçının.
+* Kendini anlatamayan  kod için ayrıntılı açıklamalar yazın:
+   - Z-index'in kullanımı
+   - Uyumluluk veya tarayıcıya özel kesmek
 
 ### OOCSS ve BEM
 
@@ -290,7 +290,7 @@ If you must use an ID selector in the first place (and you should really try not
 
 ## Çeviriler
 
-  This style guide is also available in other languages:
+  Bu stil rehberi diğer dillerde de mevcuttur:
 
   - ![tw](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Taiwan.png) **Chinese (Traditional)**: [ArvinH/css-style-guide](https://github.com/ArvinH/css-style-guide)
   - ![cn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png) **Chinese (Simplified)**: [Zhangjd/css-style-guide](https://github.com/Zhangjd/css-style-guide)
