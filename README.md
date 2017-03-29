@@ -182,7 +182,7 @@ We recommend creating JavaScript-specific classes to bind to, prefixed with `.js
 
 ### Kenar
 
-Use `0` instead of `none` to specify that a style has no border.
+Bir stilin kenarlık belirtmediğini belirtmek için `none` yerine `0` kullanın.
 
 **Bad**
 
@@ -301,3 +301,5 @@ Kendinize bunu buluyorsanız, HTML'inizi tekrar gözden geçirmeniz veya böyle 
   - ![es](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Spain.png) **Spanish**: [ismamz/guia-de-estilo-css](https://github.com/ismamz/guia-de-estilo-css)
   - ![vn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Vietnam.png) **Vietnamese**: [trungk18/css-style-guide](https://github.com/trungk18/css-style-guide)
   - ![id](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Indonesia.png) **Bahasa Indonesia**: [mazipan/css-style-guide](https://github.com/mazipan/css-style-guide)
+  - ![tr](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/Turkey.png) **Turkish**: [mazipan/css-style-guide](https://github.com/mazipan/css-style-guide)
+
