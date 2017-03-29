@@ -1,6 +1,7 @@
-# Airbnb CSS / Sass Styleguide
+# Airbnb CSS / Sass Stil Rehberi
 
-*A mostly reasonable approach to CSS and Sass*
+*CSS ve Sass için en akıllıca yaklaşım*
+
 
 ## Table of Contents
 
