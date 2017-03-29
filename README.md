@@ -37,7 +37,7 @@ A “rule declaration” is the name given to a selector (or a group of selector
 }
 ```
 
-### Selectors
+### Seçiciler
 
 In a rule declaration, “selectors” are the bits that determine which elements in the DOM tree will be styled by the defined properties. Selectors can match HTML elements, as well as an element's class, ID, or any of its attributes. Here are some examples of selectors:
 
@@ -51,7 +51,7 @@ In a rule declaration, “selectors” are the bits that determine which element
 }
 ```
 
-### Properties
+### Özellikler
 
 Finally, properties are what give the selected elements of a rule declaration their style. Properties are key-value pairs, and a rule declaration can contain one or more property declarations. Property declarations look like this:
 
@@ -64,7 +64,7 @@ Finally, properties are what give the selected elements of a rule declaration th
 
 ## CSS
 
-### Formatting
+### Düzenleme
 
 * Use soft tabs (2 spaces) for indentation
 * Prefer dashes over camelCasing in class names.
@@ -105,7 +105,7 @@ Finally, properties are what give the selected elements of a rule declaration th
 }
 ```
 
-### Comments
+### Yorumlar
 
 * Prefer line comments (`//` in Sass-land) to block comments.
 * Prefer comments on their own line. Avoid end-of-line comments.
@@ -113,7 +113,7 @@ Finally, properties are what give the selected elements of a rule declaration th
   - Uses of z-index
   - Compatibility or browser-specific hacks
 
-### OOCSS and BEM
+### OOCSS ve BEM
 
 We encourage some combination of OOCSS and BEM for these reasons:
 
@@ -165,7 +165,7 @@ function ListingCard() {
   * `.ListingCard__title` is an “element” and represents a descendant of `.ListingCard` that helps compose the block as a whole.
   * `.ListingCard--featured` is a “modifier” and represents a different state or variation on the `.ListingCard` block.
 
-### ID selectors
+### ID Seçiciler
 
 While it is possible to select elements by ID in CSS, it should generally be considered an anti-pattern. ID selectors introduce an unnecessarily high level of [specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity) to your rule declarations, and they are not reusable.
 
@@ -288,7 +288,7 @@ Again: **never nest ID selectors!**
 
 If you must use an ID selector in the first place (and you should really try not to), they should never be nested. If you find yourself doing this, you need to revisit your markup, or figure out why such strong specificity is needed. If you are writing well formed HTML and CSS, you should **never** need to do this.
 
-## Translation
+## Çeviriler
 
   This style guide is also available in other languages:
 
