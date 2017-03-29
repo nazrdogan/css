@@ -3,7 +3,7 @@
 *CSS ve Sass için en akıllıca yaklaşım*
 
 
-## Table of Contents
+## İçindekiler
 
   1. [Terminoloji](#terminology)
     - [Kural Bildirimi](#rule-declaration)
@@ -29,7 +29,7 @@
 
 ### Kural Bildirimi
 
-A “rule declaration” is the name given to a selector (or a group of selectors) with an accompanying group of properties. Here's an example:
+Bir "kural bildirimi", bir seçiciye (veya  bir seçici grubuna) verilen eşlik grubu ile birlikte verilen addır. İşte bir örnek:
 
 ```css
 .listing {
@@ -40,7 +40,8 @@ A “rule declaration” is the name given to a selector (or a group of selector
 
 ### Seçiciler
 
-In a rule declaration, “selectors” are the bits that determine which elements in the DOM tree will be styled by the defined properties. Selectors can match HTML elements, as well as an element's class, ID, or any of its attributes. Here are some examples of selectors:
+Bir kural bildiriminde, "seçiciler", DOM ağacındaki hangi öğelerin tanımlı özelliklere göre şekillendirileceğini belirleyen parçalardır.
+Seçiciler, bir öğenin sınıfı, kimliği veya herhangi bir özniteliklerinin yanı sıra HTML öğelerini eşleştirebilir. Seçicilere bazı örnekler:
 
 ```css
 .my-element-class {
@@ -53,8 +54,7 @@ In a rule declaration, “selectors” are the bits that determine which element
 ```
 
 ### Özellikler
-
-Finally, properties are what give the selected elements of a rule declaration their style. Properties are key-value pairs, and a rule declaration can contain one or more property declarations. Property declarations look like this:
+Son olarak, özellikler, bir kural bildiriminin seçilen öğelerine kendi stilini veren şeydir. Özellikler anahtar-değer çiftleri ve kural bildirimi bir veya daha fazla özellik bildirimi içerebilir. Özellik bildirimleri şuna benzer:
 
 ```css
 /* some selector */ {
@@ -66,18 +66,17 @@ Finally, properties are what give the selected elements of a rule declaration th
 ## CSS
 
 ### Düzenleme
+* Girinti için  sekmeler (2 boşluk) kullanın
+* Sınıf adlarında camelCasing üzerinde çizgi kullanmayı tercih edin.
+   - BEM (bkz. [OOCSS ve BEM] (# oocss-and-bem)) kullanıyorsanız, Alt Çizgiler (Underscores) ve PascalCasing kullanılabilir.
+*  ID seçicilerini kullanmayın
+* Bir kural bildiriminde birden çok seçici kullanırken, her seçiciye kendi satırını verin.
+* Açılış parantezinden önce kural bildiriminde `{` yer bırakın
+* Özelliklerde, `:` karakterinden sonra değil de bir boşluk koyun.
+* Yeni bir satıra kural bildirimlerinin `` `` nın köşeli parantezlerini koyun
+* Kural bildirimleri arasında boş satırlar koyun
 
-* Use soft tabs (2 spaces) for indentation
-* Prefer dashes over camelCasing in class names.
-  - Underscores and PascalCasing are okay if you are using BEM (see [OOCSS and BEM](#oocss-and-bem) below).
-* Do not use ID selectors
-* When using multiple selectors in a rule declaration, give each selector its own line.
-* Put a space before the opening brace `{` in rule declarations
-* In properties, put a space after, but not before, the `:` character.
-* Put closing braces `}` of rule declarations on a new line
-* Put blank lines between rule declarations
-
-**Bad**
+**Kötü**
 
 ```css
 .avatar{
@@ -91,7 +90,7 @@ Finally, properties are what give the selected elements of a rule declaration th
 }
 ```
 
-**Good**
+**İyi**
 
 ```css
 .avatar {
