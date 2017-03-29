@@ -180,7 +180,7 @@ We recommend creating JavaScript-specific classes to bind to, prefixed with `.js
 <button class="btn btn-primary js-request-to-book">Request to Book</button>
 ```
 
-### Border
+### Kenar
 
 Use `0` instead of `none` to specify that a style has no border.
 
@@ -192,7 +192,7 @@ Use `0` instead of `none` to specify that a style has no border.
 }
 ```
 
-**Good**
+**İyi**
 
 ```css
 .foo {
@@ -202,7 +202,7 @@ Use `0` instead of `none` to specify that a style has no border.
 
 ## Sass
 
-### Syntax
+### Sözdizimi
 
 * Use the `.scss` syntax, never the original `.sass` syntax
 * Order your regular CSS and `@include` declarations logically (see below)
@@ -262,9 +262,9 @@ Mixins should be used to DRY up your code, add clarity, or abstract complexity--
 
 `@extend` should be avoided because it has unintuitive and potentially dangerous behavior, especially when used with nested selectors. Even extending top-level placeholder selectors can cause problems if the order of selectors ends up changing later (e.g. if they are in other files and the order the files are loaded shifts). Gzipping should handle most of the savings you would have gained by using `@extend`, and you can DRY up your stylesheets nicely with mixins.
 
-### Nested selectors
+### İç içe Seçiciler
 
-**Do not nest selectors more than three levels deep!**
+**Seçicileri üç kattan daha iç içe yerleştirmeyin!**
 
 ```scss
 .page-container {
@@ -276,16 +276,17 @@ Mixins should be used to DRY up your code, add clarity, or abstract complexity--
 }
 ```
 
-When selectors become this long, you're likely writing CSS that is:
+Seçiciler bu kadar uzun olduğunda, muhtemelen şu CSS'yi yazıyorsunuzdur:
 
-* Strongly coupled to the HTML (fragile) *—OR—*
-* Overly specific (powerful) *—OR—*
-* Not reusable
+* HTML'ye güçlü bir şekilde bağlandı (kırılgan) * -VEYA- *
+* Aşırı derecede spesifik (güçlü) * -VEYA- *
+* Tekrar kullanılamaz
+
+Tekrardan Uyarı : **ID seçicileri iç içe yazmayın**
 
 
-Again: **never nest ID selectors!**
-
-If you must use an ID selector in the first place (and you should really try not to), they should never be nested. If you find yourself doing this, you need to revisit your markup, or figure out why such strong specificity is needed. If you are writing well formed HTML and CSS, you should **never** need to do this.
+İlk önce bir kimlik seçici kullanmanız gerekiyorsa (ve gerçekten yapmamaya çalışmanız gerekiyor) iç içe geçmiş olmamalıdır.
+Kendinize bunu buluyorsanız, HTML'inizi tekrar gözden geçirmeniz veya böyle kuvvetli özgünlüğe neden ihtiyaç duyulduğunuzu anlamanız gerekir.İyi biçimlendirilmiş HTML ve CSS yazıyorsanız hiçbir zaman yapmamanız gerekiyor.
 
 ## Çeviriler
 
