@@ -114,13 +114,12 @@ Son olarak, özellikler, bir kural bildiriminin seçilen öğelerine kendi stili
    - Uyumluluk veya tarayıcıya özel kesmek
 
 ### OOCSS ve BEM
+Aşağıdaki  nedenlerden dolayı OOCSS ve BEM'in bazı kombinasyonlarını teşvik ediyoruz:
 
-We encourage some combination of OOCSS and BEM for these reasons:
-
-  * It helps create clear, strict relationships between CSS and HTML
-  * It helps us create reusable, composable components
-  * It allows for less nesting and lower specificity
-  * It helps in building scalable stylesheets
+  * CSS ve HTML arasında net ve sıkı ilişkiler yaratmaya yardımcı olur
+  * Yeniden kullanılabilir, oluşturulabilir bileşenler yaratmamıza yardımcı oluyor
+  * Daha az iç içe geçmiş ve daha düşük özgüllük sağlar
+  * Ölçeklenebilir stil yapımında yardımcı olur
 
 **OOCSS**, or “Object Oriented CSS”, is an approach for writing CSS that encourages you to think about your stylesheets as a collection of “objects”: reusable, repeatable snippets that can be used independently throughout a website.
 
