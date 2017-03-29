@@ -4,29 +4,29 @@
 
 ## Table of Contents
 
-  1. [Terminology](#terminology)
-    - [Rule Declaration](#rule-declaration)
-    - [Selectors](#selectors)
-    - [Properties](#properties)
+  1. [Terminoloji](#terminology)
+    - [Kural Bildirimi](#rule-declaration)
+    - [Seçiciler](#selectors)
+    - [Özellikler](#properties)
   1. [CSS](#css)
-    - [Formatting](#formatting)
-    - [Comments](#comments)
-    - [OOCSS and BEM](#oocss-and-bem)
-    - [ID Selectors](#id-selectors)
+    - [Düzenleme](#formatting)
+    - [Yorumlar](#comments)
+    - [OOCSS ve BEM](#oocss-and-bem)
+    - [ID Seçiciler](#id-selectors)
     - [JavaScript hooks](#javascript-hooks)
-    - [Border](#border)
+    - [Kenar](#border)
   1. [Sass](#sass)
-    - [Syntax](#syntax)
-    - [Ordering](#ordering-of-property-declarations)
-    - [Variables](#variables)
+    - [SözDizimi](#syntax)
+    - [Sıralama](#ordering-of-property-declarations)
+    - [Değişkenler](#variables)
     - [Mixins](#mixins)
     - [Extend directive](#extend-directive)
     - [Nested selectors](#nested-selectors)
-  1. [Translation](#translation)
+  1. [Çeviriler](#translation)
 
-## Terminology
+## Terminoloji
 
-### Rule declaration
+### Kural Bildirimi
 
 A “rule declaration” is the name given to a selector (or a group of selectors) with an accompanying group of properties. Here's an example:
 
