@@ -262,6 +262,8 @@ Mixins should be used to DRY up your code, add clarity, or abstract complexity--
 
 `@extend` should be avoided because it has unintuitive and potentially dangerous behavior, especially when used with nested selectors. Even extending top-level placeholder selectors can cause problems if the order of selectors ends up changing later (e.g. if they are in other files and the order the files are loaded shifts). Gzipping should handle most of the savings you would have gained by using `@extend`, and you can DRY up your stylesheets nicely with mixins.
 
+`@extend`'den kaçınılmalıdır, çünkü özellikle iç içe seçicilerle kullanıldığında, bunun anlamsız ve potansiyel olarak tehlikeli bir davranışı vardır.Seçici sırası daha sonra değişirse (örneğin, başka dosyalardalar ve dosyaların yüklendiği sırayla) en üst düzey yer tutucu seçicileri bile genişleterek sorunlara neden olabilirler.Gzipping, `@extend` kullanarak kazandığınız tasarrufların çoğunu yapmalıdır ve stil sayfalarını mixin'lerle güzelce kurabilirsiniz.
+
 ### İç içe Seçiciler
 
 **Seçicileri üç kattan daha iç içe yerleştirmeyin!**
